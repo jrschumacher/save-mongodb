@@ -13,7 +13,7 @@ I won't boar your with waffle. If you want to see how this works look at the tes
 var Db = require('mongodb').Db // npm install mongodb
   , Server = require('mongodb').Server
   , save = require('save') // npm install save
-  , saveMongodb = require('..')
+  , saveMongodb = require('save-mongodb')
 
   // Create a db object to a local mongodb database called SimpleExample.
   , db = new Db('SimpleExample', new Server('localhost', 27017, {}));
